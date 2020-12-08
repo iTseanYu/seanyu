@@ -32,24 +32,15 @@ html{
 #resume_code{
   animation: glow 800ms ease-out infinite alternate;
 }
+#resume{
+  transform: skewY(1deg);
+}
+
 
 /* 现在正式开始 */
 
-/* 我需要一张白纸 */
-#resume {
-  position: fixed;
-  right: 0;
-  width: 48%;
-  height: 100vh;
-  padding: 16px;
-  background: #ccc;
-}
-#resume>.content{
-  background: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-}
+
+
 
 /* 于是我就可以在白纸上写字了，请看右边 */
 
